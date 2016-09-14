@@ -6,8 +6,7 @@ import ngInfiniteScroll from 'ng-infinite-scroll';
 
 let pokemonlistModule = angular.module('pokemonlist', [
   uiRouter,
-  pokemonPreview,
-  ngInfiniteScroll
+  pokemonPreview
 ])
     .config(($stateProvider, $urlRouterProvider) => {
       "ngInject";
